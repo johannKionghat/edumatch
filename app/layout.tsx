@@ -1,23 +1,25 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import './globals.css'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "EduMatch",
-  description: "La plateforme qui connecte les étudiants et les professionnels",
-  icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
-  },
-};
+  title: 'EduMatch - Connectez-vous avec des professionnels',
+  description: 'EduMatch est une plateforme innovante qui connecte les étudiants avec des professionnels pour un accompagnement personnalisé.',
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <head>
+        <link rel="icon" href="/logo.png" />
+      </head>
+      <body className={inter.className}>{children}</body>
     </html>
-  );
+  )
 }
