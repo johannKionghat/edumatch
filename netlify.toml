@@ -1,14 +1,14 @@
 [build]
   command = "npm run build"
   publish = ".next"
-  environment = { NODE_VERSION = "18.17.0" }
+
+[build.environment]
+  NODE_VERSION = "18.17.0"
+  NEXT_USE_NETLIFY_EDGE = "true"
+  NEXT_PRIVATE_TARGET = "server"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-[build.environment]
-  NEXT_USE_NETLIFY_EDGE = "true"
-  NEXT_PRIVATE_TARGET = "server"
 
 [[redirects]]
   from = "/*"
