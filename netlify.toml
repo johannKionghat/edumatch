@@ -3,8 +3,7 @@
   publish = "out"
 
 [build.environment]
-  NODE_VERSION = "18.17.0"
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NEXT_SKIP_PLUGIN_CHECK = "true"
 
 [[redirects]]
   from = "/*"
@@ -13,12 +12,17 @@
 
 [forms]
   [forms."contact"]
-    email = "guewoljohannkionghat@gmail.com"
+    name = "Contact Form"
+    fields = [
+      { name = "name", label = "Nom complet", widget = "string", required = true },
+      { name = "email", label = "Email", widget = "email", required = true },
+      { name = "message", label = "Message", widget = "text", required = true }
+    ]
 
 [forms.contact.notifications]
   [[forms.contact.notifications.email]]
-    to = "guewoljohannkionghat@gmail.com"
-    from = "noreply@edumatch.fr"
+    to = {{email}}
+    from = "contact.edumatch@gmail.com"
     subject = "Nouveau message de contact EduMatch"
     template = """
 Nouveau message de contact reçu :

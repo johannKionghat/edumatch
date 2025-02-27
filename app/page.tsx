@@ -601,6 +601,7 @@ export default function Home() {
                   action="/success"
                 >
                   <input type="hidden" name="form-name" value="contact" />
+                  <input type="hidden" name="subject" value="Nouveau message de contact EduMatch" />
                   <div className="hidden">
                     <input name="bot-field" />
                   </div>
