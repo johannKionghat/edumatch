@@ -1,16 +1,9 @@
-'use client';
-
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import Link from 'next/link'
 
 export default function Success() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <motion.div 
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="max-w-md w-full bg-white p-8 rounded-xl shadow-sm"
-      >
+      <div className="max-w-md w-full bg-white p-8 rounded-xl shadow-sm">
         <div className="text-center">
           <div className="w-16 h-16 bg-[#69bd48] rounded-full flex items-center justify-center mx-auto mb-4">
             <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -28,7 +21,7 @@ export default function Success() {
             Retour à l&apos;accueil
           </Link>
         </div>
-      </motion.div>
+      </div>
     </div>
-  );
+  )
 }

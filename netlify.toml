@@ -6,14 +6,6 @@
   NODE_VERSION = "18.17.0"
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-[[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
