@@ -314,10 +314,22 @@ export default function Home() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-800">Assia LOUBANE</h3>
                   <p className="text-[#1878c1] font-medium mb-3">Data Scientist</p>
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-gray-600 text-sm mb-4">
                     Experte en analyse de données et modélisation prédictive, 
                     spécialisée dans l'optimisation des algorithmes d'orientation.
                   </p>
+                  <a 
+                    href="https://linkedin.com/in/assia-loubane-b8b412261"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-sm text-[#1878c1] hover:text-[#69bd48] transition-colors"
+                  >
+                    <span>Voir profil</span>
+                    <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                      <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                    </svg>
+                  </a>
                 </div>
               </motion.div>
 
@@ -338,10 +350,22 @@ export default function Home() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-800">Johann KIONGHAT</h3>
                   <p className="text-[#1878c1] font-medium mb-3">Data Scientist</p>
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-gray-600 text-sm mb-4">
                     Spécialiste en intelligence artificielle et traitement du langage naturel,
                     responsable du développement du chatbot IA.
                   </p>
+                  <a 
+                    href="https://www.linkedin.com/in/cg-johann-kionghat/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-sm text-[#1878c1] hover:text-[#69bd48] transition-colors"
+                  >
+                    <span>Voir profil</span>
+                    <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                      <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                    </svg>
+                  </a>
                 </div>
               </motion.div>
 
@@ -360,12 +384,24 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-800">Eli Joel</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Eli-Joël</h3>
                   <p className="text-[#1878c1] font-medium mb-3">BIM Data Analyst</p>
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-gray-600 text-sm mb-4">
                     Expert en analyse de données BIM et intégration de systèmes,
                     chargé de la structuration et de l'enrichissement de notre base de connaissances.
                   </p>
+                  <a 
+                    href="https://linkedin.com/in/eli-joël-emile-essono-nzoghe"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-sm text-[#1878c1] hover:text-[#69bd48] transition-colors"
+                  >
+                    <span>Voir profil</span>
+                    <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                      <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                    </svg>
+                  </a>
                 </div>
               </motion.div>
 
@@ -386,10 +422,22 @@ export default function Home() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-800">Fahira Abdoulalime</h3>
                   <p className="text-[#1878c1] font-medium mb-3">Project Manager</p>
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-gray-600 text-sm mb-4">
                     Chef de projet expérimentée, coordonne le développement et l'implémentation
                     de la solution EduMatch, assurant la cohérence et la qualité du projet.
                   </p>
+                  <a 
+                    href="https://linkedin.com/in/fahira-abdoulalime"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-sm text-[#1878c1] hover:text-[#69bd48] transition-colors"
+                  >
+                    <span>Voir profil</span>
+                    <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                      <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                    </svg>
+                  </a>
                 </div>
               </motion.div>
             </div>
@@ -568,7 +616,7 @@ export default function Home() {
                       id="name"
                       name="name"
                       required
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#69bd48] focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#69bd48] focus:border-transparent text-gray-900 placeholder-gray-500"
                       placeholder="Votre nom"
                     />
                   </div>
@@ -581,7 +629,7 @@ export default function Home() {
                       id="email"
                       name="email"
                       required
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#69bd48] focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#69bd48] focus:border-transparent text-gray-900 placeholder-gray-500"
                       placeholder="votre@email.com"
                     />
                   </div>
@@ -594,7 +642,7 @@ export default function Home() {
                       name="message"
                       required
                       rows={4}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#69bd48] focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#69bd48] focus:border-transparent text-gray-900 placeholder-gray-500"
                       placeholder="Votre message..."
                     ></textarea>
                   </div>
@@ -678,9 +726,9 @@ export default function Home() {
             </div>
 
             {/* Social Media */}
-            <div>
+            <div className="flex flex-col items-center">
               <h4 className="text-sm font-semibold text-[#1878c1] mb-4">Suivez-nous</h4>
-              <div className="flex space-x-4">
+              <div className="flex justify-center space-x-4">
                 <a 
                   href="https://www.linkedin.com/company/edu-match" 
                   target="_blank" 
