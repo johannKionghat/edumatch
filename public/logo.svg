@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 8C14.4772 8 10 12.4772 10 18C10 23.5228 14.4772 28 20 28C25.5228 28 30 23.5228 30 18C30 12.4772 25.5228 8 20 8ZM18 14H22V22H18V14Z" fill="#69bd48"/>
+  <path d="M40 12H60V16H40V12ZM40 18H55V22H40V18ZM40 24H50V28H40V24Z" fill="#1878c1"/>
+  <text x="65" y="25" font-family="Arial" font-size="16" font-weight="bold" fill="#333333">Match</text>
+  <text x="40" y="25" font-family="Arial" font-size="16" font-weight="bold" fill="#333333">Edu</text>
+</svg>
