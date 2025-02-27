@@ -147,7 +147,7 @@ export default function Home() {
       </section>
 
       {/* Banner Section */}
-      <section className="w-full relative">
+      <section className="container relative">
         <div className="w-full h-[40vh] md:h-[60vh] lg:h-[80vh] relative">
           <Image
             src="/baniere.gif"
@@ -508,6 +508,15 @@ export default function Home() {
                 </div>
                 {/* Second set of partners */}
                 <div className="flex flex-nowrap min-w-full">
+                <motion.div className="w-1/3 px-4 flex-shrink-0">
+                    <Image
+                      src="/lapostegroup.png"
+                      alt="La poste group"
+                      width={200}
+                      height={80}
+                      className="mx-auto"
+                    />
+                  </motion.div>
                   <motion.div className="w-1/3 px-4 flex-shrink-0">
                     <Image
                       src="/asusbusiness.jpg"
@@ -521,15 +530,6 @@ export default function Home() {
                     <Image
                       src="/asuseducation.png"
                       alt="Asus education"
-                      width={200}
-                      height={80}
-                      className="mx-auto"
-                    />
-                  </motion.div>
-                  <motion.div className="w-1/3 px-4 flex-shrink-0">
-                    <Image
-                      src="/lapostegroup.png"
-                      alt="La poste group"
                       width={200}
                       height={80}
                       className="mx-auto"
