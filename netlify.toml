@@ -3,37 +3,13 @@
   publish = "out"
 
 [build.environment]
-  NEXT_SKIP_PLUGIN_CHECK = "true"
+  NODE_VERSION = "18.17.0"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-[forms]
-  [forms."contact"]
-    name = "Contact Form"
-    fields = [
-      { name = "name", label = "Nom complet", widget = "string", required = true },
-      { name = "email", label = "Email", widget = "email", required = true },
-      { name = "message", label = "Message", widget = "text", required = true }
-    ]
-
-[forms.contact.notifications]
-  [[forms.contact.notifications.email]]
-    to = {{email}}
-    from = "contact.edumatch@gmail.com"
-    subject = "Nouveau message de contact EduMatch"
-    template = """
-Nouveau message de contact reçu :
-
-Nom : {{name}}
-Email : {{email}}
-Message : {{message}}
-
----
-Envoyé depuis le formulaire de contact EduMatch
-"""
 
 [functions]
   external_node_modules = ["@netlify/plugin-nextjs"]
