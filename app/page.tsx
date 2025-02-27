@@ -154,17 +154,14 @@ export default function Home() {
           viewport={{ once: true }}
           className="container mx-auto px-4"
         >
-          <div className="w-full rounded-xl shadow-lg overflow-hidden">
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="w-full h-full object-cover"
-            >
-              <source src="/baniere.mp4" type="video/mp4" />
-              Votre navigateur ne supporte pas la lecture de vidéos.
-            </video>
+          <div className="relative w-full h-[400px] rounded-xl shadow-lg overflow-hidden">
+            <Image
+              src="/baniere.gif"
+              alt="EduMatch Bannière"
+              layout="fill"
+              objectFit="cover"
+              priority
+            />
           </div>
         </motion.div>
       </section>
